@@ -1,0 +1,100 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+Add on palette:
+WHITE PALE: #edf6f9;
+greyish teal: #a3b18a;
+
+*/
+body {
+  margin: 0;
+  text-align: center;
+  background: #a3b18a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+  border: 2px solid whitesmoke;
+  border-radius: 3%;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+}
+
+.activity-img {
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+}
+h1 {
+  background: #457b9d;
+  color: #f1faee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 20px;
+  margin-top: 15px;
+}
+h2 {
+  background: #1d3557;
+  color: #f1faee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 20px;
+  margin-top: 5px;
+}
+#hero {
+  padding: 5px;
+  height: 600px;
+  background-image: url(https://images.unsplash.com/photo-1560653510-4e50f8a2bf58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8);
+  background-size: cover;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+#hero-blurb {
+  background: #1d3557;
+  color: #f1faee;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 335px;
+}
+#guide {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin: 30px auto;
+  text-align: center;
+  justify-content: space-around;
+  border-bottom: 5px solid #457b9d;
+  background-color: #a8dadc;
+}
+#guide-img {
+  width: 170px;
+  border-radius: 13%;
+  margin: 0px 15px;
+}
+#guide-blurb {
+  font-style: italic;
+  font-size: 12px;
+  padding: 20px;
+  text-align: justify;
+}
+#activities {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 5px;
+  background: #edf6f9;
+}
+#activity-top {
+  background: #edf6f9;
+  padding: 20px;
+  margin: 0;
+}
+#activity-content {
+  width: 170px;
+  text-align: center;
+}
